@@ -308,7 +308,7 @@ export default function GuideClient() {
       <section className="border-t border-brand-border py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <AnimatedSection>
-            <p className="section-label">What's Next?</p>
+            <p className="section-label">What&apos;s Next?</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               More guides coming{" "}
               <span className="gradient-text">every month.</span>

@@ -108,7 +108,7 @@ function AnimatedSection({
   const { ref, inView } = useInView();
   return (
     <div
-      ref={ref}
+      ref={ref as React.RefObject<HTMLDivElement>}
       className={`transition-all duration-700 ${className}`}
       style={{
         transitionDelay: `${delay}ms`,
@@ -460,4 +460,3 @@ export default function CoachingClient() {
     </div>
   );
 }
-

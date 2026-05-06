@@ -68,11 +68,12 @@ const guides = [
     href: "/resources/cowork-guide",
   },
   {
-    emoji: "✉️",
-    title: "The AI Email Toolkit for SMBs",
-    desc: "Prompts, templates, and tools to handle customer emails in half the time.",
-    badge: "Coming Soon",
-    available: false,
+    emoji: "🤖",
+    title: "Your First AI Agent: What a Plugin Is and How to Build One",
+    desc: "What AI agents are, why your business needs one, and how to build your first plugin — with a SKILL.md template you can copy.",
+    badge: "Free Download",
+    available: true,
+    href: "/resources/agent-plugin-guide",
   },
 ];
 

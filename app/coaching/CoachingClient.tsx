@@ -105,15 +105,15 @@ function AnimatedSection({
   className?: string;
   delay?: number;
 }) {
-  const { ref, isInView } = useInView();
+  const { ref, inView } = useInView();
   return (
     <div
       ref={ref}
       className={`transition-all duration-700 ${className}`}
       style={{
         transitionDelay: `${delay}ms`,
-        opacity: isInView ? 1 : 0,
-        transform: isInView ? "translateY(0)" : "translateY(24px)",
+        opacity: inView ? 1 : 0,
+        transform: inView ? "translateY(0)" : "translateY(24px)",
       }}
     >
       {children}
@@ -460,3 +460,4 @@ export default function CoachingClient() {
     </div>
   );
 }
+

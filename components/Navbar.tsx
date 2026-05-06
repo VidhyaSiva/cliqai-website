@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const navLinks = [
   { label: 'Services', href: '#services' },
@@ -62,9 +63,9 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <a href="/#contact" className="btn-primary text-sm py-2.5">
+            <Link href="/#contact" className="btn-primary text-sm py-2.5">
               Book a Discovery Call
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -92,13 +93,13 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a
+            <Link
               href="/#contact"
               className="btn-primary text-sm justify-center mt-2"
               onClick={() => setIsOpen(false)}
             >
               Book a Discovery Call
-            </a>
+            </Link>
           </div>
         </div>
       )}

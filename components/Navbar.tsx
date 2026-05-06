@@ -9,6 +9,7 @@ const navLinks = [
   { label: 'How It Works', href: '#process' },
   { label: 'Why CliqAI', href: '#why-us' },
   { label: 'Contact', href: '#contact' },
+  { href: "/coaching", label: "AI Coaching" },
 ]
 
 export default function Navbar() {

@@ -60,11 +60,12 @@ const guides = [
     available: true,
   },
   {
-    emoji: "📋",
-    title: "The 5 AI Tools Every Small Business Should Know",
-    desc: "A no-fluff breakdown of what each tool does, what it costs, and whether it's worth your time.",
-    badge: "Coming Soon",
-    available: false,
+    emoji: "💻",
+    title: "Cowork for Beginners: Build a Website Without Coding",
+    desc: "How I used Claude Cowork to deploy a live website in one afternoon — every mistake documented, every fix explained.",
+    badge: "Free Download",
+    available: true,
+    href: "/resources/cowork-guide",
   },
   {
     emoji: "✉️",
@@ -285,7 +286,7 @@ export default function CoachingClient() {
                   <p className="text-gray-400 text-sm leading-relaxed flex-1 mb-5">{g.desc}</p>
                   {g.available ? (
                     <a
-                      href="/resources/5-hours-guide"
+                      href={g.href || "/resources/5-hours-guide"}
                       className="text-sm font-medium text-brand-cyan hover:text-brand-indigo transition-colors"
                     >
                       Download Free →

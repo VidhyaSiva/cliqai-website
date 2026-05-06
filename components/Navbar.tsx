@@ -62,7 +62,7 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <a href="#contact" className="btn-primary text-sm py-2.5">
+            <a href="/#contact" className="btn-primary text-sm py-2.5">
               Book a Discovery Call
             </a>
           </div>
@@ -93,7 +93,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#contact"
+              href="/#contact"
               className="btn-primary text-sm justify-center mt-2"
               onClick={() => setIsOpen(false)}
             >

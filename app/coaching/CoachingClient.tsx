@@ -75,6 +75,14 @@ const guides = [
     available: true,
     href: "/resources/agent-plugin-guide",
   },
+  {
+    emoji: "📣",
+    title: "Build a Marketing Agent That Writes and Posts to LinkedIn",
+    desc: "How I automated LinkedIn posting end-to-end — Cowork writes the post, Gmail sends it, Make.com publishes it. 15-minute setup, no developer needed.",
+    badge: "Free Download",
+    available: true,
+    href: "/resources/marketing-agent-guide",
+  },
 ];
 
 const whyPoints = [
@@ -265,7 +273,7 @@ export default function CoachingClient() {
             </div>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {guides.map((g, i) => (
               <AnimatedSection key={g.title} delay={i * 100}>
                 <div className="gradient-border-card p-7 flex flex-col h-full">

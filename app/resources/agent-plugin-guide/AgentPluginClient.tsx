@@ -105,7 +105,7 @@ export default function AgentPluginClient() {
         <AnimatedSection>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-border bg-brand-card text-sm font-medium text-brand-cyan mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-cyan animate-pulse" />
-            Free Guide · Guide 3 of 3
+            Free Guide · Guide 3 of 4
           </div>
         </AnimatedSection>
 
@@ -305,18 +305,19 @@ export default function AgentPluginClient() {
           <AnimatedSection>
             <p className="section-label">Complete the Series</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              All three guides.
+              All four guides.
               <br />
               <span className="gradient-text">All free. All practical.</span>
             </h2>
             <p className="text-gray-400 text-lg mb-10 max-w-xl mx-auto">
-              The complete beginner-to-agent journey for small business owners.
+              The complete beginner-to-automation journey for small business owners.
             </p>
             <div className="space-y-3 max-w-lg mx-auto mb-10">
               {[
                 { n: "01", title: "Save 5 Hours a Week with AI", href: "/resources/5-hours-guide" },
                 { n: "02", title: "Cowork for Beginners", href: "/resources/cowork-guide" },
                 { n: "03", title: "Your First AI Agent", href: "/resources/agent-plugin-guide", current: true },
+                { n: "04", title: "Build a Marketing Agent That Posts to LinkedIn", href: "/resources/marketing-agent-guide" },
               ].map((g) => (
                 <Link
                   key={g.n}

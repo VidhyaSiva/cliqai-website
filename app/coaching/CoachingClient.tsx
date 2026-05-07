@@ -320,7 +320,7 @@ export default function CoachingClient() {
               className="mt-12 rounded-2xl border border-brand-indigo/30 bg-brand-indigo/5 p-8 md:p-12 text-center"
             >
               <h3 className="text-2xl font-bold text-white mb-3">
-                Get all three guides — free.
+                Get all four guides — free.
               </h3>
               <p className="text-gray-400 mb-8 max-w-lg mx-auto">
                 New AI guides every month. Unsubscribe anytime. No spam — ever.
